@@ -17,10 +17,10 @@ import fresh_fruit from "@/public/Cakes/fresh_fruit.jpg";
 import german_forest from "@/public/Cakes/german_forest.jpg";
 import red_velvet from "@/public/Cakes/red_velvet.jpg";
 
-import biscoff_cheesecake from "@/public/cheesecake/biscoff.jpg";
-import blueberry_cheesecake from "@/public/cheesecake/blueberry.jpg";
-import mango_cheesecake from "@/public/cheesecake/mango.jpg";
-import nutella_cheesecake from "@/public/cheesecake/nutella.jpg";
+import biscoff_cheesecake from "@/public/cheeseCake/biscoff.jpg";
+import blueberry_cheesecake from "@/public/cheeseCake/blueberry.jpg";
+import mango_cheesecake from "@/public/cheeseCake/mango.jpg";
+import nutella_cheesecake from "@/public/cheeseCake/nutella.jpg";
 
 import blueberry_jar from "@/public/jars/blueberry.jpg";
 import chocolate_jar from "@/public/jars/chocolate.jpg";
