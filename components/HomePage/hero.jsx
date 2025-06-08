@@ -29,7 +29,7 @@ export function Hero() {
      <Image
         src={isMobile ? heroBgMobile : heroBg}
         alt="Hero background"
-        objectFit="cover"
+        className="object-cover w-full h-full"
         priority
         width={1920}
         height={1080}

@@ -16,7 +16,7 @@ import blueberry_cheesecake from "@/public/exclusive/blueberry_cheesecake.jpg";
 import bon_bon_chocolate from "@/public/exclusive/bon_bon_chocolate.jpg";
 import bon_bon from "@/public/exclusive/bon_bon.jpg";
 import brownie from "@/public/exclusive/brownie.jpg";
-import cheeseCake from "@/public/exclusive/cheeseCake.jpg";
+import cheeseCake from "@/public/exclusive/cheesecake.jpg";
 import chocolate_sticks from "@/public/exclusive/chocolate_sticks.jpg";
 import Jars from "@/public/exclusive/Jars.jpg";
 import muffin_barcake from "@/public/exclusive/muffin_barcake.jpg";
@@ -87,16 +87,14 @@ export function CarouselPlugin() {
           <CarouselItem className="md:basis-1/4" key={index}>
             <div className="p-1">
               <Card className="border-none shadow-none">
-                <CardContent className="relative flex flex-col items-center justify-center bg-sky-100 rounded-xl overflow-hidden h-64">
+                <CardContent className="relative flex flex-col items-center justify-center bg-sky-100 rounded-xl overflow-hidden h-64 p-0">
                   <span className="absolute bottom-0 w-full text-center text-white text-xl font-serif bg-black bg-opacity-50 py-2 z-10">
                     {product.name}
                   </span>
                   <Image
                     src={product.photo}
                     alt={product.name}
-                    layout="fill"
-                    objectFit="cover"
-                    className="rounded-lg"
+                    className="rounded-lg h-full w-full object-cover"
                   />
                 </CardContent>
               </Card>
