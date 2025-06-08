@@ -16,7 +16,7 @@ import blueberry_cheesecake from "@/public/exclusive/blueberry_cheesecake.jpg";
 import bon_bon_chocolate from "@/public/exclusive/bon_bon_chocolate.jpg";
 import bon_bon from "@/public/exclusive/bon_bon.jpg";
 import brownie from "@/public/exclusive/brownie.jpg";
-import cheeseCake from "@/public/exclusive/cheesecake.jpg";
+import cheeseCake from "../../public/exclusive/cheesecake.jpg";
 import chocolate_sticks from "@/public/exclusive/chocolate_sticks.jpg";
 import Jars from "@/public/exclusive/Jars.jpg";
 import muffin_barcake from "@/public/exclusive/muffin_barcake.jpg";
