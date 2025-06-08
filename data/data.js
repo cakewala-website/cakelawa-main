@@ -133,13 +133,13 @@ export const products = [
     id: 21,
     name: "Blueberry Jar",
     category: "Jars",
-    image: "/jars/blueberry.webp",
+    image: "/Jars/blueberry.webp",
   },
   {
     id: 22,
     name: "Chocolate Jar",
     category: "Jars",
-    image: "/jars/chocolate.webp",
+    image: "/Jars/chocolate.webp",
   },
   {
     id: 23,
