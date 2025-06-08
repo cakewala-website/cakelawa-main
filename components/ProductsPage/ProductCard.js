@@ -6,7 +6,10 @@ export function ProductCard({ product }) {
       <Image
         src={product.image}
         alt={product.name}
-        className="absolute inset-0 object-cover w-full h-full"
+        fill // makes image fill the parent container
+        style={{ objectFit: "cover" }}
+        className="absolute inset-0"
+        sizes="(max-width: 768px) 100vw, 25vw" // optional, for responsive optimization
       />
       <div className="absolute inset-0 bg-gradient-to-t z-10 from-black via-transparent to-transparent opacity-70"></div>
       <div className="relative z-10 flex flex-col justify-end h-full p-4 text-white">

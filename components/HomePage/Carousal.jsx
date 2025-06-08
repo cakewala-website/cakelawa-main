@@ -11,69 +11,23 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-import bar_choc from "@/public/exclusive/bar_chocolates.jpg";
-import blueberry_cheesecake from "@/public/exclusive/blueberry_cheesecake.jpg";
-import bon_bon_chocolate from "@/public/exclusive/bon_bon_chocolate.jpg";
-import bon_bon from "@/public/exclusive/bon_bon.jpg";
-import brownie from "@/public/exclusive/brownie.jpg";
-import cheeseCake from "../../public/exclusive/cheesecake.jpg";
-import chocolate_sticks from "@/public/exclusive/chocolate_sticks.jpg";
-import Jars from "@/public/exclusive/Jars.jpg";
-import muffin_barcake from "@/public/exclusive/muffin_barcake.jpg";
-import pastry from "@/public/exclusive/pastry.jpg";
-import tiramisu from "@/public/exclusive/tiramisu.jpg";
-
-
 export function CarouselPlugin() {
-    const plugin = React.useRef(
-        Autoplay({ delay: 2000, stopOnInteraction: true })
+  const plugin = React.useRef(
+    Autoplay({ delay: 2000, stopOnInteraction: true })
   );
-  
+
   const products = [
-    {
-      name: "Brownie",
-      photo: brownie,
-    },
-    {
-      name: "Blueberry Cheesecake",
-      photo: blueberry_cheesecake,
-    },
-    {
-      name: "Bon Bon Chocolate",
-      photo: bon_bon_chocolate,
-    },
-    {
-      name: "Bon Bon",
-      photo: bon_bon,
-    },
-    {
-      name: "Cheese Cake",
-      photo: cheeseCake,
-    },
-    {
-      name: "Chocolate Sticks",
-      photo: chocolate_sticks,
-    },
-    {
-      name: "Pastry",
-      photo: pastry,
-    },
-    {
-      name: "Tiramisu",
-      photo: tiramisu,
-    },
-    {
-      name: "Muffin Bar Cake",
-      photo: muffin_barcake,
-    },
-    {
-      name: "Jars",
-      photo: Jars,
-    },
-    {
-      name: "Bar Chocolates",
-      photo: bar_choc,
-    },
+    { name: "Brownie", photo: "/exclusive/brownie.jpg" },
+    { name: "Blueberry Cheesecake", photo: "/exclusive/blueberry_cheesecake.jpg" },
+    { name: "Bon Bon Chocolate", photo: "/exclusive/bon_bon_chocolate.jpg" },
+    { name: "Bon Bon", photo: "/exclusive/bon_bon.jpg" },
+    { name: "Cheese Cake", photo: "/exclusive/cheesecake.jpg" },
+    { name: "Chocolate Sticks", photo: "/exclusive/chocolate_sticks.jpg" },
+    { name: "Pastry", photo: "/exclusive/pastry.jpg" },
+    { name: "Tiramisu", photo: "/exclusive/tiramisu.jpg" },
+    { name: "Muffin Bar Cake", photo: "/exclusive/muffin_barcake.jpg" },
+    { name: "Jars", photo: "/exclusive/Jars.jpg" },
+    { name: "Bar Chocolates", photo: "/exclusive/bar_chocolates.jpg" },
   ];
 
   return (
@@ -94,6 +48,8 @@ export function CarouselPlugin() {
                   <Image
                     src={product.photo}
                     alt={product.name}
+                    width={500}
+                    height={500}
                     className="rounded-lg h-full w-full object-cover"
                   />
                 </CardContent>

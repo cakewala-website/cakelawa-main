@@ -1,40 +1,3 @@
-import butterscotch_bar from "@/public/bar_chocolate/butterscotch.jpg";
-import hazelnut from "@/public/bar_chocolate/hazelnut.jpg";
-import marble_darkchocolate from "@/public/bar_chocolate/marble_darkchocolate.jpg";
-import marble_milkchocolate from "@/public/bar_chocolate/marble_milkchocolate.jpg";
-
-import biscoff from "@/public/brownie/biscoff.jpg";
-import chocochip from "@/public/brownie/chocochip.jpg";
-import nutella from "@/public/brownie/nutella.jpg";
-import walnut from "@/public/brownie/walnut.jpg";
-
-import belgian_chocolate from "@/public/Cakes/belgian_chocolate.jpg";
-import black_forest from "@/public/Cakes/black_forest.jpg";
-import butterscotch from "@/public/Cakes/butterscotch.jpg";
-import choco_vanilla from "@/public/Cakes/choco_vanilla.jpg";
-import chocolate  from "@/public/Cakes/chocolate.jpg";
-import fresh_fruit from "@/public/Cakes/fresh_fruit.jpg";
-import german_forest from "@/public/Cakes/german_forest.jpg";
-import red_velvet from "@/public/Cakes/red_velvet.jpg";
-
-import biscoff_cheesecake from "@/public/CheeseCake/biscoff.jpg";
-import blueberry_cheesecake from "@/public/CheeseCake/blueberry.jpg";
-import mango_cheesecake from "@/public/CheeseCake/mango.jpg";
-import nutella_cheesecake from "@/public/CheeseCake/nutella.jpg";
-
-import blueberry_jar from "../public/jars/blueberry.jpg";
-import chocolate_jar from "../public/jars/chocolate.jpg";
-import red_velvet_jar from "../public/Jars/red_velvet.jpg";  
-
-import chocochip_muffin from "@/public/muffin_barcake/chocochip_muffin.jpg";
-import vanilla_muffin from "@/public/muffin_barcake/vanilla_muffin_withchocolatedices.jpg";
-import chocolate_bar_cake from "@/public/muffin_barcake/chocolate_bar_cake.jpg";
-import vanilla_bar_cake from "@/public/muffin_barcake/vanilla_bar_cake.jpg";
-
-import chocolate_pastry from "@/public/pastry/chocolate.jpg";
-import pineapple_pastry from "@/public/pastry/pineapple.jpg";
-import swiss_chocolate_pastry from "@/public/pastry/swiss_chocolate.jpg";
-
 export const categories = [
   "Bar Chocolates",
   "Brownies",
@@ -50,180 +13,180 @@ export const products = [
     id: 1,
     name: "Belgian Chocolate Cake",
     category: "Cakes",
-    image: belgian_chocolate,
+    image: "/Cakes/belgian_chocolate.jpg",
   },
   {
     id: 2,
     name: "Black Forest Cake",
     category: "Cakes",
-    image: black_forest,
+    image: "/Cakes/black_forest.jpg",
   },
   {
     id: 3,
     name: "Butterscotch Cake",
     category: "Cakes",
-    image: butterscotch,
+    image: "/Cakes/butterscotch.jpg",
   },
   {
     id: 4,
     name: "Choco Vanilla Cake",
     category: "Cakes",
-    image: choco_vanilla,
+    image: "/Cakes/choco_vanilla.jpg",
   },
   {
     id: 5,
     name: "Chocolate Cake",
     category: "Cakes",
-    image: chocolate,
+    image: "/Cakes/chocolate.jpg",
   },
   {
     id: 6,
     name: "Fresh Fruit Cake",
     category: "Cakes",
-    image: fresh_fruit,
+    image: "/Cakes/fresh_fruit.jpg",
   },
   {
     id: 7,
     name: "German Forest Cake",
     category: "Cakes",
-    image: german_forest,
+    image: "/Cakes/german_forest.jpg",
   },
   {
     id: 8,
     name: "Red Velvet Cake",
     category: "Cakes",
-    image: red_velvet,
+    image: "/Cakes/red_velvet.jpg",
   },
   {
     id: 9,
     name: "Butterscotch Bar Chocolate",
     category: "Bar Chocolates",
-    image: butterscotch_bar,
+    image: "/bar_chocolate/butterscotch.jpg",
   },
   {
     id: 10,
     name: "Hazelnut Bar Chocolate",
     category: "Bar Chocolates",
-    image: hazelnut,
+    image: "/bar_chocolate/hazelnut.jpg",
   },
   {
     id: 11,
     name: "Marble Dark Chocolate Bar",
     category: "Bar Chocolates",
-    image: marble_darkchocolate,
+    image: "/bar_chocolate/marble_darkchocolate.jpg",
   },
   {
     id: 12,
     name: "Marble Milk Chocolate Bar",
     category: "Bar Chocolates",
-    image: marble_milkchocolate,
+    image: "/bar_chocolate/marble_milkchocolate.jpg",
   },
   {
     id: 13,
     name: "Biscoff Brownie",
     category: "Brownies",
-    image: biscoff,
+    image: "/brownie/biscoff.jpg",
   },
   {
     id: 14,
     name: "Choco Chip Brownie",
     category: "Brownies",
-    image: chocochip,
+    image: "/brownie/chocochip.jpg",
   },
   {
     id: 15,
     name: "Nutella Brownie",
     category: "Brownies",
-    image: nutella,
+    image: "/brownie/nutella.jpg",
   },
   {
     id: 16,
     name: "Walnut Brownie",
     category: "Brownies",
-    image: walnut,
+    image: "/brownie/walnut.jpg",
   },
   {
     id: 17,
     name: "Biscoff Cheesecake",
     category: "Cheesecakes",
-    image: biscoff_cheesecake,
+    image: "/CheeseCake/biscoff.jpg",
   },
   {
     id: 18,
     name: "Blueberry Cheesecake",
     category: "Cheesecakes",
-    image: blueberry_cheesecake,
+    image: "/CheeseCake/blueberry.jpg",
   },
   {
     id: 19,
     name: "Mango Cheesecake",
     category: "Cheesecakes",
-    image: mango_cheesecake,
+    image: "/CheeseCake/mango.jpg",
   },
   {
     id: 20,
     name: "Nutella Cheesecake",
     category: "Cheesecakes",
-    image: nutella_cheesecake,
+    image: "/CheeseCake/nutella.jpg",
   },
   {
     id: 21,
     name: "Blueberry Jar",
     category: "Jars",
-    image: blueberry_jar,
+    image: "/jars/blueberry.jpg",
   },
   {
     id: 22,
     name: "Chocolate Jar",
     category: "Jars",
-    image: chocolate_jar,
+    image: "/jars/chocolate.jpg",
   },
   {
     id: 23,
     name: "Red Velvet Jar",
     category: "Jars",
-    image: red_velvet_jar,
+    image: "/Jars/red_velvet.jpg",
   },
   {
     id: 24,
     name: "Choco Chip Muffin",
     category: "Muffin and Bar Cake",
-    image: chocochip_muffin,
+    image: "/muffin_barcake/chocochip_muffin.jpg",
   },
   {
     id: 25,
     name: "Vanilla Muffin",
     category: "Muffin and Bar Cake",
-    image: vanilla_muffin,
+    image: "/muffin_barcake/vanilla_muffin_withchocolatedices.jpg",
   },
   {
     id: 26,
     name: "Chocolate Bar Cake",
     category: "Muffin and Bar Cake",
-    image: chocolate_bar_cake,
+    image: "/muffin_barcake/chocolate_bar_cake.jpg",
   },
   {
     id: 27,
     name: "Vanilla Bar Cake",
     category: "Muffin and Bar Cake",
-    image: vanilla_bar_cake,
+    image: "/muffin_barcake/vanilla_bar_cake.jpg",
   },
   {
     id: 28,
     name: "Chocolate Pastry",
     category: "Pastry",
-    image: chocolate_pastry,
+    image: "/pastry/chocolate.jpg",
   },
   {
     id: 29,
     name: "Pineapple Pastry",
     category: "Pastry",
-    image: pineapple_pastry,
+    image: "/pastry/pineapple.jpg",
   },
   {
     id: 30,
     name: "Swiss Chocolate Pastry",
     category: "Pastry",
-    image: swiss_chocolate_pastry,
+    image: "/pastry/swiss_chocolate.jpg",
   },
 ];
