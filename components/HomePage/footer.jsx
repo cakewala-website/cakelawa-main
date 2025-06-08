@@ -43,17 +43,14 @@ export function Footer() {
             </a>
           </div>
           <div className="my-2 text-sm sm:text-base">
-            <a
-              href="https://maps.app.goo.gl/dyibFzRabUUVjeC67"
-              target="_blank"
-            >
+            <a href="https://maps.app.goo.gl/dyibFzRabUUVjeC67" target="_blank">
               📍Shop No. 3, Plot No. B-7 and B-8, Ground Floor,
               <br /> Bhandari House Commercial Complex, Dr mukherjee nagar
             </a>
           </div>
           <div className="h-64 bg-gray-200 mb-8 rounded-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d218.70696765450657!2d77.21552586054452!3d28.71023592235308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sshop%20no%203%20plot%20no%20B-7%20and%20B-8%20ground%20floor%20Bhandari%20House%20Commercial%20Complex%20Dr%20mukherjee%20nagar!5e0!3m2!1sen!2sin!4v1736009295788!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d874.8275705775902!2d77.21430649919738!3d28.710271800000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfdc51f1cd30f%3A0x108e56029482c416!2sBakelawa!5e0!3m2!1sen!2sin!4v1749391562362!5m2!1sen!2sin"
               width="100%"
               height="100%"
               allowFullScreen={true}
