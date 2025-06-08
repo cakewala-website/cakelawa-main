@@ -21,7 +21,7 @@ export function CarouselPlugin() {
     { name: "Blueberry Cheesecake", photo: "/exclusive/blueberry_cheesecake.jpg" },
     { name: "Bon Bon Chocolate", photo: "/exclusive/bon_bon_chocolate.jpg" },
     { name: "Bon Bon", photo: "/exclusive/bon_bon.jpg" },
-    { name: "Cheese Cake", photo: "/exclusive/cheesecake.jpg" },
+    { name: "Cheese Cake", photo: "/exclusive/cheese_cake.webp" },
     { name: "Chocolate Sticks", photo: "/exclusive/chocolate_sticks.jpg" },
     { name: "Pastry", photo: "/exclusive/pastry.jpg" },
     { name: "Tiramisu", photo: "/exclusive/tiramisu.jpg" },
