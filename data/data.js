@@ -24,7 +24,7 @@ import nutella_cheesecake from "@/public/CheeseCake/nutella.jpg";
 
 import blueberry_jar from "@/public/jars/blueberry.jpg";
 import chocolate_jar from "@/public/jars/chocolate.jpg";
-import red_velvet_jar from "@/public/jars/red_velvet.jpg";  
+import red_velvet_jar from "../public/Jars/red_velvet.jpg";  
 
 import chocochip_muffin from "@/public/muffin_barcake/chocochip_muffin.jpg";
 import vanilla_muffin from "@/public/muffin_barcake/vanilla_muffin_withchocolatedices.jpg";
